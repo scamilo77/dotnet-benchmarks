@@ -1,5 +1,6 @@
 ﻿using BenchmarkDotNet.Running;
 using Benchmarks;
+using System;
 
 namespace Benchmark
 {
@@ -7,7 +8,7 @@ namespace Benchmark
     {
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<EqualsIgnoreCaseVsToUpper>();
+            var summary = BenchmarkRunner.Run<ConcatVsInterpolationVsFormat>();
         }
     }
 }

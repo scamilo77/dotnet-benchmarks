@@ -6,6 +6,7 @@
     <DebugType>pdbonly</DebugType>
     <DebugSymbols>true</DebugSymbols>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.11.3" />
